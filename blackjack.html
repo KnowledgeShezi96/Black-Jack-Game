@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Black Jack</title>
+      <link rel="stylesheet" href="blackjack.css">
+
+</head>
+<body>
+      <h1>BLACK♠JACK</h1>  
+      <p id="message-el">Want to play a round?</p>
+      <p id="cards-el"> Cards:  </p> <!--give cards paragraph an id of cards-el-->
+      <!--give the sum paragraph an id of the sum-el-->
+      <p id="sum-el">Sum: </p>
+      <!-- create a button that says START GAME
+      make it call a startGame() function when clicked-->
+      <button onclick="startGame()">START GAME</button><br>
+      <button onclick="newCard()">NEW CARD</button>
+      <p id="player-el"></p>
+      <script src="blackjack.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+      background-image: url(greenjack.jpg);
+      margin-top: 170px;
+      text-align: center;
+      font-size:x-large;
+      background-size: cover; /* avoid the background image to repeat itself*/
+}
+
+button{
+      background-color: goldenrod;
+      color: black;
+      font-weight: bold;
+      width: 150px;
+}
+
+/*.button:hover{
+      box-shadow: 0 12px 16px 0 rgba(red, green, blue, alpha), 0 17px 50px 0 rgba(red, green, blue, alpha); 
+}*/
+
+
+body h1{
+      color: goldenrod;
+      text-align: center;
+}
+
+p{
+      text-align: center;
+      font-weight: bold;
+      color: whitesmoke;
+}
+
+#message-el{
+      font-style: italic;
+}
